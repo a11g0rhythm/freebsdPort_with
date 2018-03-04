@@ -20,6 +20,6 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/with.bash-completion ${STAGEDIR}${PREFIX}/etc/bash_completion.d/with.bash-completion
 
 PLIST_FILES= bin/with \
-			 etc/bash_completion.d/with.bash-completion
+	     etc/bash_completion.d/with.bash-completion
 
 .include <bsd.port.mk>
