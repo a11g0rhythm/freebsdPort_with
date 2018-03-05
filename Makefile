@@ -2,15 +2,15 @@
 
 PORTNAME= with
 DISTVERSION= g20171025
-CATEGORIES=	misc
+CATEGORIES= misc
 LICENSE= APACHE20 
-MAINTAINER=	youremail@example.com
-COMMENT=  Command prefixing for continuous workflow using a single tool.
+MAINTAINER= youremail@example.com
+COMMENT= Command prefixing for continuous workflow using a single tool.
 
-USE_GITHUB=	yes
-GH_ACCOUNT=	mchav
-GH_PROJECT=	with
-GH_TAGNAME=	3d0ed3d
+USE_GITHUB= yes
+GH_ACCOUNT= mchav
+GH_PROJECT= with
+GH_TAGNAME= 3d0ed3d
 
 do-build:
 
